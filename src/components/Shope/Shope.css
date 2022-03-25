@@ -1,13 +1,14 @@
 .shope{
     display: grid;
-    grid-template-columns: 4fr 1.3fr;
+    grid-template-columns: 4fr 1.7fr;
     padding: 0 5%;
+    padding-right: 0;
     background: #F1F1F1;
     position: relative;
 }
 .product{
-    width: 85%;
-    margin-left: 10%;
+    width: 87%;
+    margin-left: 9%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -18,8 +19,7 @@
 .cart{
     background: #fff;
     border: .5px solid rgb(228, 227, 226);
-    max-height: 80vh;
-    right: 6%;
+    max-height: 90vh;
     width: 100%;
     left: 2%;
     padding: 15px;

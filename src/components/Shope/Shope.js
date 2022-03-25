@@ -9,7 +9,7 @@ const Shope = () => {
 
 
     const addToSelect = (selectedProduct) => {
-        const newProduct = setSelectItem([...selectItem, selectedProduct]);
+       setSelectItem([...selectItem, selectedProduct]);
     }
 
 
