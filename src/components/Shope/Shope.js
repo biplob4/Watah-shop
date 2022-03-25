@@ -17,8 +17,9 @@ const Shope = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const removeItem =()=>{
-        console.log('dhfh')
+    const removeItem =(id)=>{
+        const products = selectItem.filter(product => product.id !== id);
+        setSelectItem([...products])       
     }
 
     return (
