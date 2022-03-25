@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Sope from './components/Shope/Sope'
+import Shope from './components/Shope/Shope'
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Sope></Sope>
+      <Shope></Shope>
     </div>
   );
 }
