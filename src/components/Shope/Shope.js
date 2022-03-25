@@ -7,11 +7,9 @@ const Shope = () => {
     const [products, setProducts] = useState([]);
     const [selectItem, setSelectItem] = useState([]);
 
-
     const addToSelect = (selectedProduct) => {
        setSelectItem([...selectItem, selectedProduct]);
     }
-
 
     useEffect(() => {
         fetch('products.json')
@@ -19,16 +17,28 @@ const Shope = () => {
             .then(data => setProducts(data))
     }, [])
 
+    const removeItem =()=>{
+        console.log('dhfh')
+    }
+
     return (
         <div className='shope'>
+
             <div className="cart">
-            <SelectToAdd cart={selectItem}></SelectToAdd>
+            <div className='selectItem'>
+               <h2 style={{color:"blue"}}>Your Selected Item</h2>
+           </div>
+             {
+                 selectItem.map(products => <SelectToAdd key={products.id} cart={products} removeItem={removeItem}></SelectToAdd>)
+             }
             </div>
+
             <div className="product">
                 {
-                    products.map(product => <Product key={product.id} product={product} addToSelect={addToSelect}></Product>)
+                  products.map(product => <Product key={product.id} product={product} addToSelect={addToSelect}></Product>)
                 }
             </div>
+
         </div>
     );
 };
