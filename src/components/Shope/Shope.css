@@ -19,13 +19,28 @@
 .cart{
     background: #fff;
     border: .5px solid rgb(228, 227, 226);
-    max-height: 90vh;
+    max-height: 100vh;
     width: 100%;
     left: 2%;
     padding: 15px;
     order: 2;
     position: sticky;
     top: 70px;
+}
+.cart a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 20px;
+    color: #fff;
+    background: rgba(255, 99, 71, 0.883);
+    margin: 20px auto;
+    width: 40%;
+    /* font-weight: bolder; */
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1150px) {
@@ -41,6 +56,10 @@
     .shope{
        padding: .1px;
        margin-right: 10px;
+    }
+    .cart a{
+        font-size: 12px;
+        padding: 10px 10px;
     }
 }
 @media screen and (max-width:900px) {
