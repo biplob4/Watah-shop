@@ -11,12 +11,12 @@
     transition: .1s;
 }
 .card:hover{
-    box-shadow: rgba(4, 14, 32, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(4, 14, 32, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.12) 0px 0px 0px 1px;
 }
 .card img{
     width: 100%;
     margin: auto;
-    padding: 5%;
+    padding: 2%;
     padding-bottom: 2px;
     border-radius: 10px;
 }
@@ -48,7 +48,8 @@ i{
 }
 .product-info p{
      padding: 10px 1px;
-     margin: 2px 0;
+     margin:0 0;
+     margin-bottom: 20px;
      color: rgb(100, 99, 99);
      font-size: 13px;
      font-family: sans-serif;
@@ -57,15 +58,16 @@ i{
     background: rgb(246, 245, 245);
 }
 .add-btn{
-    width: 100%;
+    width: 99.6%;
     text-decoration: none;
     position: absolute;
-    bottom: 0;
+    left: .2%;
+    bottom: .1%;
     text-align: center;
     color: #fff;
-    background: tomato;
+    background: rgb(122, 223, 161);
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
