@@ -15,7 +15,7 @@ const Question = () => {
             </div>
             <div>
                 <h1>Whate is The difference between Props and state ?</h1>
-                <p>Use state ফাংশনের ভিতর ইউজ করতে হয় </p>
+                <p>আগেই বলেছি Use state একটি React এর hook |আর Props হচ্ছে একটা প্যারামিটার যেটা component এ ইউজ করতে হয় |Use state ফাংশনের ভিতর ইউজ করতে হয় কিন্তু Props প্যারামিটার আকারে রিসিভ করতে হয় |এই দুইটির মধ্যে সবচেয়ে বড় যে পার্থক্যটা সেটা হল,,state এর ডাটা চেঞ্জ করা যায় কিন্তু Props এর ডাটা চেঞ্জ করা যায় না |তাছাড়া Props কোন component ছাড়া ইউজ করা যায় না কিন্তু State Component ছাড়া ইউজ করা যায়</p>
             </div>
         </div>
         <p style={{textAlign:"center",margin:'20px',color:'grey'}}>@Copyright-MdBiplobHossen</p>

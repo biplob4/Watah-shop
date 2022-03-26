@@ -1,5 +1,5 @@
 # This is Online-Watch-Shope Githuv
-This is Online-Watch-Shope [Live-Site-Link](https://online-watch-shope.netlify.app/)
+This is Online Watch Shope Live-Site[(https://online-watch-shope.netlify.app/)]
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
